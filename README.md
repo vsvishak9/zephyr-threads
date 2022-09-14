@@ -14,8 +14,9 @@ exec following commands
     pip install west
     west init .
     west update
-
-replace "name of project" with the folder name wich u have to compile.
+    
+Now copy the folder in this repository in zephyr subfolder inside workspace.
+Replace "name of project" with the folder name wich u have to compile.
     
     west build -p -b native_posix <name of project>
     west build -t run
