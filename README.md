@@ -6,6 +6,7 @@ Then create a workspace folder "zephyrproject" and cd into it
 exec following commands
     
     python3 -m venv .venv
+    #then source the venv activation script, i used vscode, it does it automatically.
     pip install west
     west init .
     west update
