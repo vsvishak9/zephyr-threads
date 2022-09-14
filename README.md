@@ -6,10 +6,20 @@ For Arch linux i had to install the packages using below command
     sudo pacman -S git cmake ninja gperf ccache dfu-util dtc wget \
     python-pip python-setuptools python-wheel tk xz file make lib32-gcc-libs lib32-glibc
     
-For setting up Zephyr SDK
+For setting up Zephyr SDK:
     
     wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/zephyr-sdk-0.14.2_linux-x86_64.tar.gz
     wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/sha256.sum | shasum --check --ignore-missing
+    
+Extract the Zephyr SDK bundle archive (make sure you extract in $HOME folder):
+
+    cd <sdk download directory>
+    tar xvf zephyr-sdk-0.14.2_linux-x86_64.tar.gz
+
+Run the Zephyr SDK bundle setup script:
+
+    cd zephyr-sdk-0.14.2
+    ./setup.sh
 
 Then create a workspace folder "zephyrproject" and cd into it
 exec following commands
