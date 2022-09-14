@@ -11,7 +11,7 @@ exec following commands
     west init .
     west update
 
-replace <name of project> with the folder name wich u have to compile.
+replace "name of project" with the folder name wich u have to compile.
     
     west build -b native_posix <name of project>
     west build -t run
