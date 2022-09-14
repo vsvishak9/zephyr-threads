@@ -10,8 +10,8 @@ exec following commands
     pip install west
     west init .
     west update
-    
-    
+
 replace <name of project> with the folder name wich u have to compile.
+    
     west build -b native_posix <name of project>
     west build -t run
