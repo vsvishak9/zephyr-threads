@@ -4,4 +4,5 @@ detailed guide can be found on https://docs.zephyrproject.org/3.1.0/develop/gett
 
 Then create a workspace folder "zephyrproject" and cd into it
 exec following commands
+    
     python3 -m venv .venv
